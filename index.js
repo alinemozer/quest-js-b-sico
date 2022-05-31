@@ -1,35 +1,35 @@
-function soma (primeiroValor, segundoValor) {
+function somar (primeiroValor, segundoValor) {
     return primeiroValor + segundoValor
 }
 
-soma (10, 5)
+somar (10, 5)
 
-let resultadoSoma = soma (10, 5)
-console.log (resultadoSoma);
+let resultadoSoma = somar (10, 5)
+console.log ('A soma dos números é ' + resultadoSoma);
 
-function divisao (primeiroValor, segundoValor) {
+function dividir (primeiroValor, segundoValor) {
     return primeiroValor / segundoValor
 }
 
-divisao (20, 2)
+dividir (20, 2)
 
-let resultadoDivisao = divisao (20, 2)
-console.log (resultadoDivisao);
+let resultadoDivisao = dividir (20, 2)
+console.log ('A divisão dos números é ' + resultadoDivisao);
 
-function multiplicacao (primeiroValor, segundoValor, terceiroValor) {
+function multiplicar (primeiroValor, segundoValor, terceiroValor) {
     return primeiroValor * segundoValor * terceiroValor
 }
 
-multiplicacao (5, 2, 4)
+multiplicar (5, 2, 4)
 
-let resultadoMultiplicacao = multiplicacao (5, 2, 4)
-console.log (resultadoMultiplicacao);
+let resultadoMultiplicacao = multiplicar (5, 2, 4)
+console.log ('A multiplicação dos números é ' + resultadoMultiplicacao);
 
-function subtracao (primeiroValor, segundoValor) {
+function subtrair (primeiroValor, segundoValor) {
     return primeiroValor - segundoValor
 }
 
-subtracao (50, 20)
+subtrair (50, 20)
 
-let resultadoSubtracao = subtracao (50, 20)
-console.log (resultadoSubtracao);
+let resultadoSubtracao = subtrair (50, 20)
+console.log ('A subtração dos números é ' + resultadoSubtracao);
